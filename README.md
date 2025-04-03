@@ -1,13 +1,23 @@
-# file hash generator
-Cybersecurity tool for [add description].
+# File Hash Generator
+
+## Overview
+The File Hash Generator is a Python tool that computes cryptographic hashes for files using the `hashlib` library. It supports MD5 and SHA-256 algorithms and processes files in chunks for efficiency.
+
+## Author
+Rick Hayes
+
+## License
+MIT
+
+## Version
+2.73
 
 ## Requirements
 - Python 3.x
+- No additional libraries beyond the Python standard library
 
 ## Usage
-```bash
-python file_hash_generator.py --help
-```
+Run the script with the following arguments:
 
-## Configuration
-Edit `config.ini` for custom settings.
+```bash
+python3 file_hash_generator.py --file <FILE_PATH> [--algo <ALGORITHM>] [--config <CONFIG_FILE>]
